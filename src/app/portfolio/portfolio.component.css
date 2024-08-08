@@ -1,0 +1,14 @@
+
+   
+.my-inner{
+    background-color:rgba(0, 0, 255, 0.541);
+    opacity: .0;
+
+    transition: all .5s;
+}
+
+.my-card:hover .my-inner{
+    opacity: .6;
+    cursor: pointer;
+
+}

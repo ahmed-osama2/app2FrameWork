@@ -9,4 +9,20 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
 
+
+  isclicked:boolean = false
+
+  imgeSrc:string=""
+
+  open(myImage:string){
+    this.isclicked=true
+    this.imgeSrc=myImage
+
+  }
+
+  close(){
+    this.isclicked=false
+  }
+
+
 }

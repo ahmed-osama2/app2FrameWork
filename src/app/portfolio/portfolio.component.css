@@ -12,3 +12,14 @@
     cursor: pointer;
 
 }
+
+.imageContent{
+    width: 40%;
+    height:250px ;
+    background-size: 100% 100%;
+} 
+
+.my-x{
+    cursor: pointer;
+    top: -40px;
+}
